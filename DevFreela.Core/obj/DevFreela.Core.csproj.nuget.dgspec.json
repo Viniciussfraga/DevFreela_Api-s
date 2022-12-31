@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj": {}
+    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj": {}
   },
   "projects": {
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj": {
+    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj",
-        "projectName": "DevFreela.Api",
-        "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj",
+        "projectUniqueName": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectName": "DevFreela.Core",
+        "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj",
         "packagesPath": "C:\\Users\\vinix\\.nuget\\packages\\",
-        "outputPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\obj\\",
+        "outputPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,12 +45,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,9 +57,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
