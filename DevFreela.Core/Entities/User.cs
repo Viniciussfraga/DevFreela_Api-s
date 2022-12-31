@@ -1,11 +1,10 @@
 ﻿namespace DevFreela.Core.Entities {
     public class User : BaseEntity
     {
-        public User(string fullName, string email, string password, DateTime birthDate)
+        public User(string fullName, string email, DateTime birthDate)
         {
             FullName = fullName;
             Email = email;
-            Password = password;
             BirthDate = birthDate;
             CreatedAt= DateTime.Now;
             Active = true;

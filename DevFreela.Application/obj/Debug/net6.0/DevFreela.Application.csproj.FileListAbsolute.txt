@@ -1,0 +1,17 @@
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.AssemblyReference.cache
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfoInputs.cache
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfo.cs
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CoreCompileInputs.cache
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.deps.json
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.pdb
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.pdb
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CopyComplete
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\refint\DevFreela.Application.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.pdb
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\ref\DevFreela.Application.dll
