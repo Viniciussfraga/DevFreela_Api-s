@@ -67,3 +67,4 @@ H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\obj\Debug\net6.0\scoped
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\obj\Debug\net6.0\DevFreela.Api.csproj.CopyComplete
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\obj\Debug\net6.0\DevFreela.Api.genruntimeconfig.cache
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\obj\Debug\net6.0\ref\DevFreela.Api.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\obj\Debug\net6.0\DevFreela.Api.MvcApplicationPartsAssemblyInfo.cs
