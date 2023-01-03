@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ukyX1V1H5RkvYE3Z67k4+9sHqVuC5pz/CttwhYpY+0+NfYcGoh5gwjZFhoP9UxBnp2zI+P+RXZjmoq3CMkZkVQ==",
+  "dgSpecHash": "lTJY9Ck7/XrRrQ+4JNQ9h9ZIl7wwpxjriczvMFltuKl8j7abImLhdWVPqm6r2oxY02rO1t/gvX/6ULc45aPiwQ==",
   "success": true,
   "projectFilePath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\DevFreela.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinix\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3Q8msOu601Ygjclna5/DArpGO/T4ZFbmvldYisL46oAFXvajVe5qLGgoQgWchjPDKgqRJ6G3QNhM9FWSaD2uWA==",
+  "dgSpecHash": "CtADfn6Xf7tP0s2fFgcNrLfCw/bv7bZ9zFsvGVZb7MTiX7oBhC+V5t4y9RGxPzenKoz64GRTyd2pu27nGSgfbw==",
   "success": true,
   "projectFilePath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinix\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
