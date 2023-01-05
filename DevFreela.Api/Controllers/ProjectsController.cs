@@ -39,10 +39,7 @@ namespace DevFreela.Api.Controllers {
 
             var projects = await _mediator.Send(getProjectsById);
 
-            if (projects == null)
-            {
-                return NotFound();
-            }
+            if (projects == null) return NotFound();
 
             return Ok(projects);
         }
@@ -84,6 +81,7 @@ namespace DevFreela.Api.Controllers {
         public async Task<IActionResult> PostComment(int id, [FromBody] CreateCommentCommand command)
         {
             await _mediator.Send(command);
+
             return NoContent();
         }
         // api/projects/id/start  <--- exemplo
