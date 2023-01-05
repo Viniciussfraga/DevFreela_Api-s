@@ -1,12 +1,6 @@
-﻿using Dapper;
-using DevFreela.Application.ViewModels;
-using DevFreela.Core.DTOs;
+﻿using DevFreela.Core.DTOs;
 using DevFreela.Core.Repositories;
-using DevFreela.Infrastructure.Persistence;
 using MediatR;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace DevFreela.Application.Queries.GetAllSkills {
     public class GetAllSkillQueryHandler : IRequestHandler<GetAllSkillQuery, List<SkillDTO>> 
@@ -19,7 +13,7 @@ namespace DevFreela.Application.Queries.GetAllSkills {
 
         public async Task<List<SkillDTO>> Handle(GetAllSkillQuery request, CancellationToken cancellationToken)
         {
-            return await _skillRepository.GetAll();
+            return await _skillRepository.GetAllAsync();
         }
     }
 }
