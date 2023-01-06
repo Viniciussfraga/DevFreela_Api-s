@@ -47,9 +47,15 @@ namespace DevFreela.Api.Controllers {
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateProjectCommand command)
         {
-            if (command.Title.Length > 50) return BadRequest();
+            if (!ModelState.IsValid)
+            {
+                var messages = ModelState
+                    .SelectMany(ms => ms.Value.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
 
-            //var id = _projectService.Create(inputModel);
+                return BadRequest(messages);
+            }
 
             var id = await _mediator.Send(command);
 
@@ -60,6 +66,16 @@ namespace DevFreela.Api.Controllers {
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] UpdateProjectCommand command)
         {
+            if (!ModelState.IsValid)
+            {
+                var messages = ModelState
+                    .SelectMany(ms => ms.Value.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
+
+                return BadRequest(messages);
+            }
+
             if (command.Description.Length > 200) return BadRequest();
 
             await _mediator.Send(command);
@@ -80,6 +96,16 @@ namespace DevFreela.Api.Controllers {
         [HttpPost("{id}/comments")]
         public async Task<IActionResult> PostComment(int id, [FromBody] CreateCommentCommand command)
         {
+            if (!ModelState.IsValid)
+            {
+                var messages = ModelState
+                    .SelectMany(ms => ms.Value.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
+
+                return BadRequest(messages);
+            }
+
             await _mediator.Send(command);
 
             return NoContent();

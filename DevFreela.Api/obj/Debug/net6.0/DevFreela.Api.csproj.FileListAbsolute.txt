@@ -127,3 +127,6 @@ H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\Dapper
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\MediatR.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\MediatR.Contracts.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

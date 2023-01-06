@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "WErrvCUlhsUFv3FxZ4Bj9hNY/0oxANmUUrWJPhdQriNt+26gXRE7pfA2iGdj8Ir9AOpnlL7sODZpMBlnIfJ4Ww==",
+  "dgSpecHash": "eZE7pRWde9ngND2A6imqpn3Im+WuxaLFTfgOLIhq+UdUXtH4vj2/2T+SeyYaq9LoRLNkHfLOZBBHRpI7rbIUmg==",
   "success": true,
   "projectFilePath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinix\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
