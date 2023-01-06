@@ -1,3 +1,4 @@
+using DevFreela.Api.Filters;
 using DevFreela.Application.Commands.CreateProject;
 using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
@@ -10,8 +11,9 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container. //AddFluentValidation adiciona todos os validadores no assembly
-builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateUserCommandValidator>());
+// Add services to the container. 
+builder.Services.AddControllers(options => options.Filters.Add(typeof(ValidationFilter))) //Filtro de validação, acessando ModelState para fazer as validações
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateUserCommandValidator>()); //AddFluentValidation adiciona todos os validadores no assembly
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
