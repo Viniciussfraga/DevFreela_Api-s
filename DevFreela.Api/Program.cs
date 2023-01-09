@@ -8,8 +8,11 @@ using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
 using FluentValidation.AspNetCore;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +27,53 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevFreela.API", Version = "v1" });
+
+    //Definição de segurança do Swagger
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header usando o esquema Bearer."
+    });
+
+    //
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+         {
+         new OpenApiSecurityScheme
+         {
+              Reference = new OpenApiReference
+              {
+                Type = ReferenceType.SecurityScheme,
+                Id = "Bearer"
+              }
+         },
+           new string[] {}
+         }
+    });
 });
+
+//Autenticação com JWT, para adicionar o scheme e a configuração do JWT
+builder.Services
+              .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+              .AddJwtBearer(options =>
+              {
+                  options.TokenValidationParameters = new TokenValidationParameters
+                  {
+                      ValidateIssuer = true,
+                      ValidateAudience = true,
+                      ValidateLifetime = true,
+                      ValidateIssuerSigningKey = true,
+
+                      ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                      ValidAudience = builder.Configuration["Jwt:Audience"],
+                      IssuerSigningKey = new SymmetricSecurityKey
+                      (Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                  };
+              });
 
 //Conexão string com o banco de dados
 var connectionString = builder.Configuration.GetConnectionString("DevFreelaCs");
@@ -36,10 +85,12 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 
 //Injeção de dependência do JWT Authenticator
-builder.Services.AddScoped<IAuthService, AuthService>(); 
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 //MediatR utiliza o assembly para mapear todos os outros com a interfarce iRequest e iRequestHandler
 builder.Services.AddMediatR(typeof(CreateProjectCommand));
+
+
 
 var app = builder.Build();
 
@@ -53,6 +104,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
+app.UseAuthentication(); //Com o UseAuthorization e UseAuthentication tem que ser adicionados para que seja realizada a autorização e autenticação
 app.UseAuthorization();
 
 app.MapControllers();

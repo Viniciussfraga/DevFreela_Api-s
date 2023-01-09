@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eZE7pRWde9ngND2A6imqpn3Im+WuxaLFTfgOLIhq+UdUXtH4vj2/2T+SeyYaq9LoRLNkHfLOZBBHRpI7rbIUmg==",
+  "dgSpecHash": "VtI2Sv8zvI8V03/cK8iLpdzqONL8nnVaKY/S4bhQm6ZD7gt/lskOhdBvnPK8OsJRJJonZG9YFnkbH3nhHX8aww==",
   "success": true,
   "projectFilePath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Api\\DevFreela.Api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\vinix\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\vinix\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.12\\microsoft.aspnetcore.authentication.jwtbearer.6.0.12.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\vinix\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

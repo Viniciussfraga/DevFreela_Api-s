@@ -46,6 +46,7 @@ namespace DevFreela.Infrastructure.Auth
             return stringToken;
         }
 
+        //Senha para teste do email test@gmail.com é Abcd10@@
         public string ComputeSha256Hash(string password)
         {
             using (SHA256 sha256Hash = SHA256.Create()) //Inicializando o método do sha256 Create
@@ -62,7 +63,6 @@ namespace DevFreela.Infrastructure.Auth
                 {
                     builder.Append(bytes[i].ToString("x2"));// 2x faz com que seja convertido em representação hexadecimal
                 }
-
 
                 return builder.ToString();
             }

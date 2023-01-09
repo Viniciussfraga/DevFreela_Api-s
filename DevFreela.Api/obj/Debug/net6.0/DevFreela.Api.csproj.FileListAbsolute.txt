@@ -130,3 +130,4 @@ H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\Mediat
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

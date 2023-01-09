@@ -1,11 +1,14 @@
-﻿using DevFreela.Api.Models;
-using DevFreela.Application.Commands.CreateUser;
+﻿using DevFreela.Application.Commands.CreateUser;
+using DevFreela.Application.Commands.LoginUser;
 using DevFreela.Application.Queries.GetUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DevFreela.Api.Controllers {
+namespace DevFreela.Api.Controllers
+{
     [Route("api/users")]
+    [Authorize] //Exige autorização do token JWT
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -30,6 +33,7 @@ namespace DevFreela.Api.Controllers {
         }
         // api/users
         [HttpPost]
+        [AllowAnonymous] //Permite usar a versão anonima, ou seja, não precisa de autenticação 
         public async Task<IActionResult> Post([FromBody] CreateUserCommand command)
         { 
             var id = await _mediator.Send(command);
@@ -37,11 +41,16 @@ namespace DevFreela.Api.Controllers {
             return CreatedAtAction(nameof(GetById), new {id = id}, command);
         }
 
-        // api/users/id/login
-        [HttpPut("{id}/login")]
-        public IActionResult Login(int id, [FromBody] LoginModel login)
+        // api/users/login
+        [HttpPut("login")]
+        [AllowAnonymous] //Permite usar a versão anonima, ou seja, não precisa de autenticação 
+        public async Task<IActionResult> Login([FromBody] LoginUserCommand command)
         {
-            return NoContent();
+            var loginUserViewModel = await _mediator.Send(command);
+
+            if (loginUserViewModel == null) return BadRequest();
+
+            return Ok(loginUserViewModel);
         }
 
     }
