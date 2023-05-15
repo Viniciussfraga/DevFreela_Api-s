@@ -4,6 +4,7 @@ using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
 using DevFreela.Core.Services;
 using DevFreela.Infrastructure.Auth;
+using DevFreela.Infrastructure.Payments;
 using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
 using FluentValidation.AspNetCore;
@@ -87,10 +88,14 @@ builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 //Injeção de dependência do JWT Authenticator
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+//Injeção de dependência PaymentService
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+
 //MediatR utiliza o assembly para mapear todos os outros com a interfarce iRequest e iRequestHandler
 builder.Services.AddMediatR(typeof(CreateProjectCommand));
 
-
+//Utilizado para microsserviços
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
