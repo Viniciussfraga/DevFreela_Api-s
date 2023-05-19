@@ -4,6 +4,7 @@ using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
 using DevFreela.Core.Services;
 using DevFreela.Infrastructure.Auth;
+using DevFreela.Infrastructure.MessageBus;
 using DevFreela.Infrastructure.Payments;
 using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
@@ -96,6 +97,9 @@ builder.Services.AddMediatR(typeof(CreateProjectCommand));
 
 //Utilizado para microsserviços
 builder.Services.AddHttpClient();
+
+//Utilizado para mensageria RabbitMQ
+builder.Services.AddScoped<IMessageBusService, MessageBusServices>();
 
 var app = builder.Build();
 
