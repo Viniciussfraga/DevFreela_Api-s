@@ -15,3 +15,37 @@ H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\refint\DevFreela.Application.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.pdb
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\ref\DevFreela.Application.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.deps.json
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.AssemblyReference.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfoInputs.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfo.cs
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CoreCompileInputs.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CopyComplete
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\refint\DevFreela.Application.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Application\obj\Debug\net6.0\ref\DevFreela.Application.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.deps.json
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Application.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Core.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.AssemblyInfo.cs
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.csproj.CopyComplete
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\refint\DevFreela.Application.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\DevFreela.Application.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Application\obj\Debug\net6.0\ref\DevFreela.Application.dll

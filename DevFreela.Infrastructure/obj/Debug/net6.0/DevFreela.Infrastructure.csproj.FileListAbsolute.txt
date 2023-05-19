@@ -15,3 +15,37 @@ H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\ne
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\ref\DevFreela.Infrastructure.dll
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.runtimeconfig.json
 H:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.genruntimeconfig.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.deps.json
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.runtimeconfig.json
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Core.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Core.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.AssemblyReference.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.AssemblyInfoInputs.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.AssemblyInfo.cs
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.CopyComplete
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\refint\DevFreela.Infrastructure.dll
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.pdb
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.genruntimeconfig.cache
+D:\Curso LuisDev\DevFreela\DevFreela_Api's\DevFreela.Infrastructure\obj\Debug\net6.0\ref\DevFreela.Infrastructure.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.AssemblyInfo.cs
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\refint\DevFreela.Infrastructure.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.deps.json
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.runtimeconfig.json
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Core.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\bin\Debug\net6.0\DevFreela.Core.pdb
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.csproj.CopyComplete
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\DevFreela.Infrastructure.genruntimeconfig.cache
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Infrastructure\obj\Debug\net6.0\ref\DevFreela.Infrastructure.dll

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\DevFreela.Application.csproj": {}
+    "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Application\\DevFreela.Application.csproj": {}
   },
   "projects": {
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\DevFreela.Application.csproj": {
+    "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Application\\DevFreela.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\DevFreela.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Application\\DevFreela.Application.csproj",
         "projectName": "DevFreela.Application",
-        "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\DevFreela.Application.csproj",
-        "packagesPath": "C:\\Users\\vinix\\.nuget\\packages\\",
-        "outputPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Application\\obj\\",
+        "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Application\\DevFreela.Application.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,18 +27,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj"
+              "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj"
               },
-              "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-                "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+              "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
               }
             }
           }
@@ -82,25 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj": {
+    "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj",
         "projectName": "DevFreela.Core",
-        "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj",
-        "packagesPath": "C:\\Users\\vinix\\.nuget\\packages\\",
-        "outputPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\obj\\",
+        "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -143,25 +141,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+    "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
         "projectName": "DevFreela.Infrastructure",
-        "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\vinix\\.nuget\\packages\\",
-        "outputPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -170,15 +168,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "H:\\Curso LuisDev\\DevFreela\\DevFreela_Api's\\DevFreela.Core\\DevFreela.Core.csproj"
+              "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "C:\\Users\\Vinicius\\Documents\\GitHub\\DevFreela_Api-s\\DevFreela.Core\\DevFreela.Core.csproj"
               }
             }
           }
@@ -206,6 +203,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -224,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
