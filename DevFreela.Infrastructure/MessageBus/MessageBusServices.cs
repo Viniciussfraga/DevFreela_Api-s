@@ -12,7 +12,8 @@ namespace DevFreela.Infrastructure.MessageBus
         {
             _connectionFactory = new ConnectionFactory
             {
-                HostName= "localhost" //Caso utilizar o servidor externo, talvez teria que usar User e Pass
+                HostName = "localhost",
+                 //Caso utilizar o servidor externo, talvez teria que usar User e Pass
             };
         }
         public void Publish(string queue, byte[] message)

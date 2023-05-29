@@ -335,3 +335,5 @@ C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\obj\Debug\net6.
 C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\obj\Debug\net6.0\DevFreela.Api.csproj.CopyComplete
 C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\obj\Debug\net6.0\DevFreela.Api.genruntimeconfig.cache
 C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\obj\Debug\net6.0\ref\DevFreela.Api.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Vinicius\Documents\GitHub\DevFreela_Api-s\DevFreela.Api\bin\Debug\net6.0\System.Threading.Channels.dll

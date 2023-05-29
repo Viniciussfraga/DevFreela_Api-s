@@ -111,7 +111,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection(); //Serve para evitar o uso de http que é menos seguro
 
 
 app.UseAuthentication(); //Com o UseAuthorization e UseAuthentication tem que ser adicionados para que seja realizada a autorização e autenticação
