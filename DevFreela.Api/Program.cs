@@ -1,5 +1,6 @@
 using DevFreela.Api.Filters;
 using DevFreela.Application.Commands.CreateProject;
+using DevFreela.Application.Consumers;
 using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
 using DevFreela.Core.Services;
@@ -100,6 +101,9 @@ builder.Services.AddHttpClient();
 
 //Utilizado para mensageria RabbitMQ
 builder.Services.AddScoped<IMessageBusService, MessageBusServices>();
+
+//Classe do microsserviço de payment
+builder.Services.AddHostedService<PaymentApprovedConsumer>();
 
 var app = builder.Build();
 
